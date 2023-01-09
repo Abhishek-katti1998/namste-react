@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.nav-items{
+display: flex;
+ list-style: none;
+ justify-content: space-between;
+ align-items: center;
+
+}
+.nav-items li{
+    margin-right: 10px;
+}
+.card{
+    width:200px;
+    border:1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.cousins{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: hidden;
+}
+.card img{
+width:100%;
+}
+.resto-list{
+    display: flex;
+    flex-flow: row wrap;
+}
