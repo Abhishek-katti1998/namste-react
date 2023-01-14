@@ -34,3 +34,13 @@ width:100%;
     flex-flow: row wrap;
 }
 
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin-top: 10px;
+}
+.search-container button{
+margin-top: 10px;
+}
